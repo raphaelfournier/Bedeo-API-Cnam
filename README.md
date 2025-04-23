@@ -17,6 +17,9 @@ pip install -r requirements.txt
 # pour Jekyll
 bundle install
 
+# éventuellement :
+cp _data/master-blocks.exemple.yaml _data/master-blocks.yaml
+
 # ensuite :
 make html
 make serve
