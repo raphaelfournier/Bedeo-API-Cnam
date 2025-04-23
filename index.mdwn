@@ -1,0 +1,71 @@
+---
+title: Master TRIED au Cnam Paris
+layout: index
+---
+
+<p style="color:#c1002a;font-weight:bold;">Avertissement : cette page est une page de démonstration. Les informations présentées ici peuvent être inexactes, référez-vous à la <a href="https://formation.cnam.fr/rechercher-par-discipline/master-sciences-technologies-sante-mention-informatique-parcours-traitement-de-l-information-et-exploitation-des-donnees-813201.kjsp">page officielle du Master sur le site du CNAM</a>.</p>
+
+<div id="myBtnContainer">
+<button class="btn active" onclick="filterSelection('all')">Tout</button>
+<button class="btn" onclick="filterSelection('foad')">FOAD</button>
+<button class="btn" onclick="filterSelection('s1')">S1</button>
+<button class="btn" onclick="filterSelection('s2')">S2</button>
+<button class="btn bdd-si" onclick="filterSelection('bdd-si')">BDD-SI</button>
+<button class="btn optim-ia" onclick="filterSelection('optim-ia')">Optim-IA</button>
+<button class="btn maths" onclick="filterSelection('maths')">Maths</button>
+<button class="btn rsxmobile" onclick="filterSelection('rsxmobile')">RSX-Mobile</button>
+<button class="btn autre" onclick="filterSelection('autre')">Autre</button>
+</div>
+
+{% for annee in site.data.master-blocks %}
+<div id="annee-{{ annee[0] }}" class="annee">
+  <div class="nom">{{ annee[0] | upcase }}</div>
+  {% assign a = annee[0] %}
+    <div class="grid"> 
+    {% for block in site.data.master-blocks[a] %}
+      {% assign b = block[0] %}
+    <div class="step choice{{ site.data.master-blocks[a][b].size }} {% if forloop.last == false %}arrow-right{% endif %}">
+      {% if site.data.master-blocks[a][b].size > 1 %}
+      <span class="blocktitle">Choix</span>
+      {% endif %}
+      {% for ue in site.data.master-blocks[a][b] %}
+        <div class="myue {{ ue[1].categ }}{% if ue[1]["ouvertures"].S1 and ue[1]["ouvertures"].S1 != "non" %} s1 {%endif%} {% if ue[1]["ouvertures"].S2 and ue[1]["ouvertures"].S2 != "non" %} s2 {%endif%} {% if ue[1]["ouvertures"].S1 == "FOAD" or ue[1]["ouvertures"].S2=="FOAD" %} foad {%endif%}" id="{{ ue[1].code | downcase }}">
+          <span class="title">{{ ue[0] | upcase }}</span> <span class="ects">{{ ue[1].credits }} ECTS</span><br/>
+          <span class="intitule"><a href="https://informatique.cnam.fr/fr/bedeo.php?ue={{ ue[0] | upcase }}">{{ ue[1].intitule }}</a></span>
+          <div class="ouvertures">
+          Ouvertures&nbsp;:
+          <ul class="ouvertures">
+          <li>S1 : {{ ue[1]["ouvertures"].S1 }}</li>
+          <li>S2 : {{ ue[1]["ouvertures"].S2 }}</li>
+          </ul>
+          </div>
+          {% assign respo = ue[1].responsable %}
+          {% assign secretariat = ue[1].secretariat %}
+					<button class="btn infos" data-template="tooltip-{{ue[0]}}">Informations</button>
+					<div style="display: none;">
+						<div  id="tooltip-{{ue[0]}}">
+						Responsable : {{ respo.prenom }} {{ respo.nom }}<br/>
+						Secrétaire : {{ secretariat.adresses_email[0] }}
+						</div>
+					</div>
+        </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endfor %}
+
+ <script>
+document.querySelectorAll('button[data-template]').forEach(btn => {
+		tippy(btn, 
+				{
+				content(reference) {
+				const id = reference.getAttribute('data-template');
+				const template = document.getElementById(id);
+				return template.innerHTML;
+				},
+				trigger: 'click', allowHTML: true, placement: 'bottom'
+})
+})
+    </script>

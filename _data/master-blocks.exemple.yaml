@@ -1,0 +1,564 @@
+m1:
+  bloc1:
+    NFE115:
+      ouvertures:
+        S1: non
+        S2: FOAD
+      categ: bdd-si
+      code: NFE115
+      credits: 6
+      intitule: "Introduction \xE0 la gestion de donn\xE9es \xE0 large \xE9chelle"
+      responsable:
+        adresse_email_enf: samira.cherfi@lecnam.net
+        adresse_email_paris: samira.cherfi@cnam.fr
+        login_enf: samira.cherfi
+        nom: CHERFI
+        prenom: Samira
+        uid_enf: 525271a979af88.43953603PER
+        uid_paris: cherfis
+      secretariat:
+        adresse: "2D4P10\n, 33\n, 2 rue Cont\xE9 75003 Paris"
+        adresses_email:
+        - alexandre.lescaut@cnam.fr
+        id: 66
+        libelle: Informatique d'entreprise
+        nom_contact: Alexandre LESCAUT
+        telephones:
+        - 01 58 80 84 71
+  bloc2:
+    RSX103:
+      ouvertures:
+        S1: non
+        S2: FOAD
+      categ: rsxmobile
+      code: RSX103
+      credits: 6
+      intitule: "Conception et urbanisation de services r\xE9seau"
+      responsable:
+        adresse_email_enf: stephane.rovedakis@lecnam.net
+        adresse_email_paris: stephane.rovedakis@cnam.fr
+        login_enf: stephane.rovedakis
+        nom: ROVEDAKIS
+        prenom: "St\xE9phane"
+        uid_enf: 525274161151a5.81956400PER
+        uid_paris: rovedaks
+      secretariat:
+        adresse: "2 rue Cont\xE9 acc\xE8s 33.1.11B 75003 Paris"
+        adresses_email:
+        - hamida.mmadi@lecnam.net
+        id: 347
+        libelle: EPN05 - Informatique
+        nom_contact: Mmadi Hamida
+        telephones:
+        - 01 40 27 28 21
+  bloc3:
+    RCP104:
+      ouvertures:
+        S1: non
+        S2: Présentiel
+      categ: optim-ia
+      code: RCP104
+      credits: 6
+      intitule: Optimisation en informatique
+      responsable:
+        adresse_email_enf: cedric.bentz@lecnam.net
+        adresse_email_paris: cedric.bentz@cnam.fr
+        login_enf: cedric.bentz
+        nom: BENTZ
+        prenom: "C\xE9dric"
+        uid_enf: 52527529e133e0.63749537PER
+        uid_paris: bentzc
+      secretariat:
+        adresse: "2 rue Cont\xE9 75003 Paris"
+        adresses_email:
+        - swathi.ranganadin@cnam.fr
+        id: 64
+        libelle: EPN05 - Informatique
+        nom_contact: Swathi Rajaselvam
+        telephones:
+        - 01 40 27 22 58
+      url: http://deptinfo.cnam.fr/new/spip.php?rubrique254
+  bloc4:
+    STA101:
+      categ: maths
+      code: STA101
+      credits: 6
+      intitule: "Analyse des donn\xE9es : m\xE9thodes descriptives"
+      responsable:
+        adresse_email_enf: vincent.audigier@lecnam.net
+        adresse_email_paris: vincent.audigier@cnam.fr
+        login_enf: vincent.audigier
+        nom: 'AUDIGIER '
+        prenom: Vincent
+        uid_enf: 59aea6cf787327.39362902PER
+        uid_paris: audigiev
+      secretariat:
+        adresse: "2 rue cont\xE9 Acc\xE8s 35 3 \xE8me \xE9tage porte 19 75003 Paris"
+        adresses_email:
+        - sabine.glodkowski@lecnam.net
+        id: 60
+        libelle: "EPN06 Math\xE9matiques et statistiques"
+        nom_contact: Sabine Glodkowski
+        telephones: []
+  bloc5:
+    NFP106:
+      ouvertures:
+        S1: Présentiel
+        S2: FOAD
+      categ: optim-ia
+      code: NFP106
+      credits: 6
+      intitule: Intelligence artificielle
+      responsable:
+        adresse_email_enf: meziane.yacoub@lecnam.net
+        adresse_email_paris: meziane.yacoub@cnam.fr
+        login_enf: meziane.yacoub
+        nom: YACOUB
+        prenom: Meziane
+        uid_enf: 525271f01c8d75.22766016PER
+        uid_paris: yacoubm
+      secretariat:
+        adresse: "2 rue Cont\xE9 75003 Paris"
+        adresses_email:
+        - swathi.ranganadin@cnam.fr
+        id: 64
+        libelle: EPN05 - Informatique
+        nom_contact: Swathi Rajaselvam
+        telephones:
+        - 01 40 27 22 58
+  bloc6:
+    ANG330:
+      categ: autre
+      code: ANG330
+      credits: 6
+      intitule: Anglais professionnel
+      responsable:
+        adresse_email_enf: naouel.zoghlamiterrien@lecnam.net
+        adresse_email_paris: naouel.zoghlamiterrien@lecnam.net
+        login_enf: naouel.zoghlamiterrien
+        nom: ZOGHLAMI TERRIEN
+        prenom: Naouel
+        uid_enf: 5b8653bb0fd278.23914085PER
+        uid_paris: zoghlamn
+      secretariat:
+        adresse: "2, rue Cont\xE9 31.2.05 75003 Paris"
+        adresses_email:
+        - par_langues@lecnam.net
+        id: 43
+        libelle: "Communication en langues \xE9trang\xE8res (CLE)"
+        telephones:
+        - 01 58 80 86 88
+      url: https://langues.cnam.fr/
+  bloc7:
+    RCP208:
+      ouvertures:
+        S1: Présentiel
+        S2: FOAD
+      categ: optim-ia
+      code: RCP208
+      credits: 6
+      intitule: "Apprentissage statistique : mod\xE9lisation descriptive et introduction\
+        \ aux r\xE9seaux de neurones"
+      responsable:
+        adresse_email_enf: michel.crucianu@lecnam.net
+        adresse_email_paris: michel.crucianu@cnam.fr
+        login_enf: michel.crucianu
+        nom: CRUCIANU
+        prenom: Michel
+        uid_enf: 52527507951f50.68288903PER
+        uid_paris: crucianm
+      secretariat:
+        adresse: "2 rue Cont\xE9 75003 Paris"
+        adresses_email:
+        - swathi.ranganadin@cnam.fr
+        id: 64
+        libelle: EPN05 - Informatique
+        nom_contact: Swathi Rajaselvam
+        telephones:
+        - 01 40 27 22 58
+      url: http://cedric.cnam.fr/vertigo/Cours/ml/
+  bloc8:
+    CSC109:
+      categ: maths
+      code: CSC109
+      credits: 6
+      intitule: "Introduction au Calcul Scientifique : Mod\xE9lisation, simulation num\xE9\
+        rique et applications"
+      responsable:
+        adresse_email_enf: chloe.mimeau@lecnam.net
+        adresse_email_paris: chloe.mimeau@cnam.fr
+        login_enf: chloe.mimeau
+        nom: MIMEAU
+        prenom: "Chlo\xE9"
+        uid_enf: 5679771a8379d9.50160989PER
+        uid_paris: mimeauc
+      secretariat:
+        adresse: "2 rue cont\xE9 Acc\xE8s 35 3 \xE8me \xE9tage porte 19 75003 Paris"
+        adresses_email:
+        - sabine.glodkowski@lecnam.net
+        id: 60
+        libelle: "EPN06 Math\xE9matiques et statistiques"
+        nom_contact: Sabine Glodkowski
+        telephones: []
+      url: http://www.cnam.fr/maths/
+  bloc9:
+    RCP106:
+      ouvertures:
+        S2: Présentiel
+        S1: non
+      categ: optim-ia
+      code: RCP106
+      credits: 6
+      intitule: Algorithmique et Programmation
+      responsable:
+        adresse_email_enf: safia.kedadsidhoum@lecnam.net
+        adresse_email_paris: safia.kedad_sidhoum@cnam.fr
+        login_enf: safia.kedadsidhoum
+        nom: KEDAD SIDHOUM
+        prenom: Safia
+        uid_enf: 5a5ca60571fea4.98666844PER
+        uid_paris: kedadsis
+      secretariat:
+        adresse: "2 rue Cont\xE9 75003 Paris"
+        adresses_email:
+        - swathi.ranganadin@cnam.fr
+        id: 64
+        libelle: EPN05 - Informatique
+        nom_contact: Swathi Rajaselvam
+        telephones:
+        - 01 40 27 22 58
+    STA002:
+      categ: maths
+      code: STA002
+      credits: 6
+      intitule: Apprentissage des logiciels de calcul
+      responsable:
+        adresse_email_enf: giorgio.russolillo@lecnam.net
+        adresse_email_paris: giorgio.russolillo@cnam.fr
+        login_enf: giorgio.russolillo
+        nom: RUSSOLILLO
+        prenom: Giorgio
+        uid_enf: 525284cfa9aa61.57697638PER
+        uid_paris: russolig
+      secretariat:
+        adresse: "2 rue cont\xE9 Acc\xE8s 35 3 \xE8me \xE9tage porte 19 75003 Paris"
+        adresses_email:
+        - sabine.glodkowski@lecnam.net
+        id: 60
+        libelle: "EPN06 Math\xE9matiques et statistiques"
+        nom_contact: Sabine Glodkowski
+        telephones: []
+      url: https://lecnam.net/accueil
+    MVA107:
+      categ: optim-ia
+      code: MVA107
+      credits: 6
+      intitule: "Alg\xE8bre lin\xE9aire et g\xE9om\xE9trie"
+      responsable:
+        adresse_email_enf: isabelle.gil@lecnam.net
+        adresse_email_paris: isabelle.gil@cnam.fr
+        login_enf: isabelle.gil
+        nom: GIL
+        prenom: Isabelle
+        uid_enf: 5252706281a954.41001292PER
+        uid_paris: gili
+      secretariat:
+        adresse: "2 rue cont\xE9 Acc\xE8s 35 3 \xE8me \xE9tage porte 19 75003 Paris"
+        adresses_email:
+        - sabine.glodkowski@lecnam.net
+        id: 60
+        libelle: "EPN06 Math\xE9matiques et statistiques"
+        nom_contact: Sabine Glodkowski
+        telephones: []
+      url: http://maths.cnam.fr/
+  bloc10:
+    NFP108:
+      categ: bdd-si
+      code: NFP108
+      credits: 6
+      intitule: "Sp\xE9cification et Mod\xE9lisation Informatiques"
+      responsable:
+        adresse_email_enf: pierre.courtieu@lecnam.net
+        adresse_email_paris: pierre.courtieu@lecnam.net
+        login_enf: pierre.courtieu
+        nom: COURTIEU
+        prenom: Pierre
+        uid_enf: 525272a6e53211.41927204PER
+        uid_paris: courtiep
+      secretariat:
+        adresse: "2 rue Cont\xE9 33.1.13A 75003 Paris"
+        adresses_email:
+        - safia.sider@lecnam.net
+        id: 62
+        libelle: EPN05 -  Informatique
+        nom_contact: Safia Sider
+        telephones:
+        - 01 40 27 26 81
+      url: http://deptmedia.cnam.fr/new/spip.php?article475
+    NFP103:
+      categ: bdd-si
+      code: NFP103
+      credits: 6
+      intitule: "Sp\xE9cification et v\xE9rification des syst\xE8mes distribu\xE9s"
+      responsable:
+        adresse_email_enf: kamel.barkaoui@lecnam.net
+        adresse_email_paris: kamel.barkaoui@cnam.fr
+        login_enf: kamel.barkaoui
+        nom: BARKAOUI
+        prenom: Kamel
+        uid_enf: 5252702a675605.16672059PER
+        uid_paris: barkaouk
+      secretariat:
+        adresse: "2 rue Cont\xE9 75003 Paris"
+        adresses_email:
+        - swathi.ranganadin@cnam.fr
+        id: 64
+        libelle: EPN05 - Informatique
+        nom_contact: Swathi Rajaselvam
+        telephones:
+        - 01 40 27 22 58
+      url: http://deptinfo.cnam.fr/Enseignement/CycleSpecialisation/ACCOV/
+m2:
+  bloc1:
+    RCP209:
+      categ: optim-ia
+      code: RCP209
+      credits: 6
+      intitule: "Apprentissage statistique : mod\xE9lisation d\xE9cisionnelle et apprentissage\
+        \ profond"
+      responsable:
+        adresse_email_enf: nicolas.audebert@lecnam.net
+        adresse_email_paris: nicolas.audebert@cnam.fr
+        login_enf: nicolas.audebert
+        nom: AUDEBERT
+        prenom: Nicolas
+        uid_enf: 5d7fa94e7b28a8.80683576PER
+        uid_paris: audebern
+      secretariat:
+        adresse: "2 rue Cont\xE9 75003 Paris"
+        adresses_email:
+        - swathi.ranganadin@cnam.fr
+        id: 64
+        libelle: EPN05 - Informatique
+        nom_contact: Swathi Rajaselvam
+        telephones:
+        - 01 40 27 22 58
+      url: http://cedric.cnam.fr/vertigo/Cours/ml2/
+  bloc2:
+    RCP211:
+      categ: optim-ia
+      code: RCP211
+      credits: 6
+      intitule: "Intelligence artificielle avanc\xE9e"
+      responsable:
+        adresse_email_enf: clement.rambour@lecnam.net
+        adresse_email_paris: clement.rambour@cnam.fr
+        login_enf: clement.rambour
+        nom: RAMBOUR
+        prenom: "Cl\xE9ment"
+        uid_enf: 5f55e6528908e7.72374182PER
+        uid_paris: rambourc
+      secretariat:
+        adresse: "2 rue cont\xE9 31.1.79 75003 Paris"
+        adresses_email:
+        - swathi.rajaselvam@lecnam.net
+        id: 28
+        libelle: EPN05 Informatique
+        nom_contact: Swathi Rajaselvam
+        telephones:
+        - 01 40 27 20 38
+      url: http://cedric.cnam.fr/vertigo/cours/RCP211/
+    RCP217:
+      categ: optim-ia
+      code: RCP217
+      credits: 6
+      intitule: "Intelligence artificielle pour des donn\xE9es multim\xE9dia"
+      responsable:
+        adresse_email_enf: marin.ferecatu@lecnam.net
+        adresse_email_paris: marin.ferecatu@cnam.fr
+        login_enf: marin.ferecatu
+        nom: FERECATU
+        prenom: Marin
+        uid_enf: 5252738b5c88f4.81006729PER
+        uid_paris: ferecatm
+      secretariat:
+        adresse: "2 rue cont\xE9 31.1.79 75003 Paris"
+        adresses_email:
+        - swathi.rajaselvam@lecnam.net
+        id: 28
+        libelle: EPN05 Informatique
+        nom_contact: Swathi Rajaselvam
+        telephones:
+        - 01 40 27 20 38
+      url: https://cedric.cnam.fr/vertigo/cours/RCP217
+  bloc3:
+    CSC217:
+      categ: maths
+      code: CSC217
+      credits: 6
+      intitule: Intelligence Artificielle et Calcul Scientifique
+      responsable:
+        adresse_email_enf: iraj.mortazavi@lecnam.net
+        adresse_email_paris: iraj.mortazavi@cnam.fr
+        login_enf: iraj.mortazavi
+        nom: MORTAZAVI
+        prenom: Iraj
+        uid_enf: 546dd5ca3d0aa4.54328867PER
+        uid_paris: mortazai
+      secretariat:
+        adresse: "2 rue cont\xE9 Acc\xE8s 35 3 \xE8me \xE9tage porte 19 75003 Paris"
+        adresses_email:
+        - sabine.glodkowski@lecnam.net
+        id: 60
+        libelle: "EPN06 Math\xE9matiques et statistiques"
+        nom_contact: Sabine Glodkowski
+        telephones: []
+  bloc4:
+    MTR105:
+      categ: rsxmobile
+      code: MTR105
+      credits: 6
+      intitule: Capteurs - Transducteurs - Conditionneurs
+      responsable:
+        adresse_email_enf: stephan.briaudeau@lecnam.net
+        adresse_email_paris: stephan.briaudeau@cnam.fr
+        login_enf: stephan.briaudeau
+        nom: BRIAUDEAU
+        prenom: Stephan
+        uid_enf: 5252718f7623f4.57045760PER
+        uid_paris: briaudes
+      secretariat:
+        adresse: 2D7P30, 61 Rue du Landy 93210 La Plaine - Saint-Denis
+        adresses_email:
+        - secr.instrumesure@cnam.fr
+        id: 109
+        libelle: Instrumentation-Mesure
+        nom_contact: "Secr\xE9tariat Instrumentation-Mesure"
+        telephones:
+        - 01 40 27 21 71
+    SMB214:
+      categ: rsxmobile
+      code: SMB214
+      credits: 6
+      intitule: "Infrastructure technologique et nouveaux syst\xE8mes (1)"
+      responsable:
+        adresse_email_enf: pierre.paradinas@lecnam.net
+        adresse_email_paris: pierre.paradinas@cnam.fr
+        login_enf: pierre.paradinas
+        nom: PARADINAS
+        prenom: Pierre
+        uid_enf: 52527255c99208.40425371PER
+        uid_paris: paradinp
+      secretariat:
+        adresse: "2 rue Cont\xE9 75003 Paris"
+        adresses_email:
+        - konstantina.kontouli@lecnam.net
+        id: 336
+        libelle: EPN05 -IRSM
+        nom_contact: KONTOULI Konstantina
+        telephones: []
+      url: http://deptinfo.cnam.fr/new/infos.php?ue=NFP214
+  bloc5:
+    STA211:
+      categ: maths
+      code: STA211
+      credits: 9
+      intitule: "Entreposage et fouille de donn\xE9es"
+      responsable:
+        adresse_email_enf: ndeye.niangkeita@lecnam.net
+        adresse_email_paris: n-deye.niang_keita@cnam.fr
+        login_enf: ndeye.niangkeita
+        nom: NIANG
+        prenom: N'deye
+        uid_enf: 525270e1b47df6.33420835PER
+        uid_paris: niangken
+      secretariat:
+        adresse: "2 rue cont\xE9 Acc\xE8s 35 3 \xE8me \xE9tage porte 19 75003 Paris"
+        adresses_email:
+        - sabine.glodkowski@lecnam.net
+        id: 60
+        libelle: "EPN06 Math\xE9matiques et statistiques"
+        nom_contact: Sabine Glodkowski
+        telephones: []
+      url: http://maths.cnam.fr/
+    STA212:
+      categ: maths
+      code: STA212
+      credits: 9
+      intitule: "Donn\xE9es cat\xE9gorielles"
+      responsable:
+        adresse_email_enf: vincent.audigier@lecnam.net
+        adresse_email_paris: vincent.audigier@cnam.fr
+        login_enf: vincent.audigier
+        nom: 'AUDIGIER '
+        prenom: Vincent
+        uid_enf: 59aea6cf787327.39362902PER
+        uid_paris: audigiev
+      secretariat:
+        adresse: "2 rue cont\xE9 Acc\xE8s 35 3 \xE8me \xE9tage porte 19 75003 Paris"
+        adresses_email:
+        - sabine.glodkowski@lecnam.net
+        id: 60
+        libelle: "EPN06 Math\xE9matiques et statistiques"
+        nom_contact: Sabine Glodkowski
+        telephones: []
+      url: http://maths.cnam.fr/
+  bloc6:
+    NFE211:
+      categ: bdd-si
+      code: NFE211
+      credits: 6
+      intitule: Business Intelligence (1)  - Data Warehouses
+      responsable:
+        adresse_email_enf: elisabeth.metais@lecnam.net
+        adresse_email_paris: elisabeth.metais@cnam.fr
+        login_enf: elisabeth.metais
+        nom: METAIS
+        prenom: Elisabeth
+        uid_enf: 525271c6251074.06156471PER
+        uid_paris: metaise
+      secretariat:
+        adresse: "2D4P10\n, 33\n, 2 rue Cont\xE9 75003 Paris"
+        adresses_email:
+        - alexandre.lescaut@cnam.fr
+        id: 66
+        libelle: Informatique d'entreprise
+        nom_contact: Alexandre LESCAUT
+        telephones:
+        - 01 58 80 84 71
+    NFE204:
+      categ: bdd-si
+      code: NFE212
+      credits: 6
+      intitule: Business Intelligence (2) - Visualisation et Valorisation
+      responsable:
+        adresse_email_enf: elisabeth.metais@lecnam.net
+        adresse_email_paris: elisabeth.metais@cnam.fr
+        login_enf: elisabeth.metais
+        nom: METAIS
+        prenom: Elisabeth
+        uid_enf: 525271c6251074.06156471PER
+        uid_paris: metaise
+      secretariat:
+        adresse: "2D4P10\n, 33\n, 2 rue Cont\xE9 75003 Paris"
+        adresses_email:
+        - alexandre.lescaut@cnam.fr
+        id: 66
+        libelle: Informatique d'entreprise
+        nom_contact: Alexandre LESCAUT
+        telephones:
+        - 01 58 80 84 71
+  bloc7:
+    UA332U:
+      categ: autre
+      code: UA332U
+      credits: 24
+      intitule: "Stage et m\xE9moire professionnel"
+      responsable:
+        adresse_email_enf: raphael.fourniersniehotta@lecnam.net
+        adresse_email_paris: raphael.fournier_s_niehotta@cnam.fr
+        login_enf: raphael.fourniersniehotta
+        nom: FOURNIER-S'NIEHOTTA
+        prenom: "Rapha\xEBl"
+        uid_enf: 54354030c66f24.96252687PER
+        uid_paris: fournier

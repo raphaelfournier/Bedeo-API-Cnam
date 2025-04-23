@@ -1,0 +1,123 @@
+/*#nfe115 {*/
+	/*grid-column: 1 ;*/
+	/*grid-row: 1;*/
+/*}*/
+/*#rcp104 {*/
+	/*grid-column: 3 ;*/
+	/*grid-row: 1;*/
+/*}*/
+/*#rsx103 {*/
+	/*grid-column: 2 ;*/
+	/*grid-row: 1;*/
+/*}*/
+/*#sta101 {*/
+	/*grid-column: 4 ;*/
+	/*grid-row: 1;*/
+/*}*/
+
+/*#rcp208 {*/
+	/*grid-column: 1 ;*/
+	/*grid-row: 4;*/
+/*}*/
+/*#csc109 {*/
+	/*grid-column: 2 ;*/
+	/*grid-row: 4 ;*/
+/*}*/
+/*#mva107 {*/
+	/*grid-column: 3 ;*/
+	/*grid-row: 4 ;*/
+/*}*/
+/*#sta002 {*/
+	/*grid-column: 3;*/
+	/*grid-row: 5;*/
+/*}*/
+/*#rcp106 {*/
+	/*grid-column: 3 ;*/
+	/*grid-row: 6 ;*/
+/*}*/
+/*#nfp103 {*/
+	/*grid-column: 4;*/
+	/*grid-row: 4 ;*/
+/*}*/
+/*#nfp108 {*/
+	/*grid-column: 4;*/
+	/*grid-row: 5 ;*/
+/*}*/
+/*#ang330 {*/
+	/*grid-column: 6;*/
+	/*grid-row: 4 ;*/
+/*}*/
+/*#nfp106 {*/
+	/*grid-column: 5;*/
+	/*grid-row: 1 ;*/
+/*}*/
+/*#rcp209 {*/
+	/*grid-column: 1;*/
+	/*grid-row: 1 ;*/
+/*}*/
+/*#rcp211 {*/
+	/*grid-column: 2;*/
+	/*grid-row: 1 ;*/
+/*}*/
+/*#rcp217 {*/
+	/*grid-column: 2;*/
+	/*grid-row: 2 ;*/
+/*}*/
+/*#csc217 {*/
+	/*grid-column: 3;*/
+	/*grid-row: 1 ;*/
+/*}*/
+/*#smb214 {*/
+	/*grid-column: 4;*/
+	/*grid-row: 1 ;*/
+/*}*/
+/*#mtr105 {*/
+	/*grid-column: 4;*/
+	/*grid-row: 2 ;*/
+/*}*/
+/*#sta211 {*/
+	/*grid-column: 5;*/
+	/*grid-row: 1 ;*/
+/*}*/
+/*#sta212 {*/
+	/*grid-column: 5;*/
+	/*grid-row: 2;*/
+/*}*/
+/*#nfe211 {*/
+	/*grid-column: 6;*/
+	/*grid-row: 1 ;*/
+/*}*/
+/*#nfe204 {*/
+	/*grid-column: 6;*/
+	/*grid-row: 2 ;*/
+/*}*/
+/*#nfe212 {*/
+	/*grid-column: 6;*/
+	/*grid-row: 2 ;*/
+/*}*/
+/*#ua332u {*/
+	/*grid-column: 7;*/
+	/*grid-row: 1 ;*/
+
+/*}*/
+.bdd-si {
+	background-color: #CAEDFF;
+}
+.autre {
+	background-color: #FBF0B2;
+}
+.maths {
+	background-color: #C8E4B2;
+}
+.optim-ia {
+	background-color: #FFC7EA;
+}
+.rsxmobile {
+	background-color: #D8B4F8;
+}
+
+
+.ects {
+float: right;
+}
+
